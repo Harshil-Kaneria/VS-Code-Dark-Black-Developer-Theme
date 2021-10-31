@@ -1,0 +1,34 @@
+{
+    "name": "dark-black-developer",
+    "displayName": "Dark Black Developer",
+    "description": "This Theme For Developers and Smart People.",
+    "version": "0.0.1",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Harshil-Kaneria/VS-Code-Dark-Black-Developer-Theme"
+    },
+    "publisher": "Harshil-Kaneria",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "keywords":[
+        "Dark Black",
+        "Dark Theme",
+        "Developer",
+        "Dark-Black",
+        "Harshil Kaneria"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Black Developer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-black-developer-color-theme.json"
+            }
+        ]
+    }
+}
